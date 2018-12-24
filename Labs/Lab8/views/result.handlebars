@@ -1,0 +1,15 @@
+{{!-- /result direct --}}
+<article>
+    {{!-- <header> --}}
+        <h1>{{title}}</h1>
+    {{!-- </header> --}}
+    <a href="/">Try another palindrome</a>
+    {{!-- This class will change to failure
+    or success, depending on the palindrome test --}}
+    <p class={{class}}>{{text}}</p>
+    {{#if isPal}}
+        <p>{{text}} is a palindrome!</p>
+    {{else}}
+        <p>{{text}} isn't a palindrome!</p>
+    {{/if}}
+</article>

@@ -1,0 +1,45 @@
+
+.is-palindrome {
+    color: #0000FF;
+}
+.not-palindrome {
+    color: #FF0000;
+}
+body {
+    background-image: linear-gradient(-90deg, rgb(0, 62, 197), yellow);
+}
+
+textarea{
+    background-color: transparent;
+}
+h1{
+    text-align: center;
+}
+footer{
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.btn{
+    text-align: center;
+    color: rgb(255, 0, 212);
+}
+.container{
+    text-align: center;
+}
+#eb{
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(255, 0, 212);
+}
+#tb{
+    font-weight: bold;
+}
+#top{
+    border-top-width: 30px;
+    border-top-color: coral;
+}
+form{
+    padding: 10px;
+}

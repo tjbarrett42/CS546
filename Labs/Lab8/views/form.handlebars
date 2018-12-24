@@ -1,0 +1,16 @@
+{{!-- / direct --}}
+<article>
+    <header><h1>{{title}}</h1></header>
+    <main>
+    <p>A palindrome is a phrase that is spelled the same way, 
+        backwards and forwards (ignoring spacing and punctuation; 
+        only alphanumeric characters matter).</p>
+    </main>
+
+    <form action="/result" method="post">
+        <label for="text-to-test">
+        Enter string here and click 'Submit Form' to test.</label>
+        <input type="text" name="text-to-test" id="text-to-test">
+        <input type="submit" value="Submit Form">
+    </form>
+</article>

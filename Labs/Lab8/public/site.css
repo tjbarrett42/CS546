@@ -1,0 +1,37 @@
+.success {
+	color: #28a745;
+}
+.failure {
+	color: #dc3545;
+}
+body {
+	font-size: 18px;
+	background-color: #c3cbd8;
+}
+main {
+	text-align: center;
+	width: 90%;
+}
+form {
+	text-align: center;
+}
+h1 {
+	color: #0d3068;
+	font-style: italic;
+	font-size: 22px;
+	margin-top: 5%;
+	text-align: center;
+}
+a {
+	font-style: italic;
+	color: #e8633e
+}
+p {
+	font-size: 24px;
+}
+
+input {
+	color: #d456a7;
+}
+
+

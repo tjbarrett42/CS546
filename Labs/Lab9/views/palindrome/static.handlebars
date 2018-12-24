@@ -1,0 +1,30 @@
+<div class="row">
+  <div class="col-sm-12">
+    <form id="static-form" method="post">
+      <div class="form-group">
+        <label for="text">Test a word or phrase:</label>
+        {{!-- Textarea --}}
+        <textarea name="phrase" placeholder="Try me!"> 
+        
+        {{text}}
+
+        </textarea>
+      
+      {{!-- error first or last? --}}
+      <div class="form-group hidden" id="error-container">
+        <div class="alert alert-danger text-goes-here">
+        </div>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+      <div class="form-group hidden" id="result-container">
+        <div class="alert alert-success text-goes-here">
+        <ol id="attempts"></ol>
+        </div>
+      </div>
+      
+      </div>
+    </form>
+  </div>
+</div>
